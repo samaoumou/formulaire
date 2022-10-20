@@ -60,6 +60,9 @@ return true;
 login.className = 'incorrect';
 tooltipStyle.display = 'inline-block';
 return false; } };
+
+
+/* pour le maus de passe */
 check['pwd1'] = function() {
 var pwd1 = document.getElementById('pwd1'),
 tooltipStyle = getTooltip(pwd1).style;
@@ -83,6 +86,9 @@ return true;
 pwd2.className = 'incorrect';
 tooltipStyle.display = 'inline-block';
 return false; } };
+
+
+
 check['country'] = function() {
 var country = document.getElementById('country'),
 tooltipStyle = getTooltip(country).style;
